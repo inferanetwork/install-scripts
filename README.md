@@ -12,7 +12,7 @@ Ensure you have the following installed and running on your system:
 
 ## Installation 
 
-Download the shell script from github to your desktop for your operating system
+Download the shell script from github to your Downloads folder for your computer
 
 Mac: (M-series Chip) ```install_script_m_chips.sh```
      (Intel Chip) ```install_script_intel.sh```
