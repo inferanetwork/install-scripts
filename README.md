@@ -26,7 +26,7 @@ Open Terminal and use the following commands to download and install the Infera
 ### Apple M Series
 
 ```
-cd Desktop
+cd Downloads
 chmod +x install_script_m_chips.sh
 ./install_script_m_chips.sh
 echo "alias infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
@@ -35,7 +35,7 @@ echo "alias infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 ### Linux
 
 ```
-cd Desktop
+cd Downloads
 chmod +x install_script_linux.sh
 ./install_script_linux.sh
 ```
