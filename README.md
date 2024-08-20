@@ -36,7 +36,7 @@ echo "alias infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 
 ```
 cd Desktop
-chmod +x install_script_m_chips.sh
+chmod +x install_script_linux.sh
 ./install_script_linux.sh
 ```
 
