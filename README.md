@@ -49,4 +49,16 @@ init-infera
 ```
 
 
+## Manage Models
 
+While the node is running, you can install ```llama3:latest``` with CLI using the following terminal command
+
+```
+curl -X POST http://localhost:11025/install_new_model \
+     -H "Content-Type: application/json" \
+     -d '{"install_model_name": "llama3:latest"}'
+```
+The node should now have ```llama3:latest``` installed and your node is now fully operational on the network
+
+
+Infera offeres a google extension where users are able to install/remove models from their node and see their node information 
