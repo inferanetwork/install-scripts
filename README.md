@@ -119,4 +119,4 @@ llama3.1:latest
 llama2-uncensored:latest
 ```
 
-Infera offers a google extension [here](https://github.com/inferanetwork/chrome-extension) for users who wish to use a visual interface for accessing their hosted node.
+Infera offers a [Google Extension](https://github.com/inferanetwork/chrome-extension) for users who wish to use a visual interface for accessing their hosted node.
