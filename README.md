@@ -49,7 +49,50 @@ To start the node, enter the following to your terminal and the node will automa
 ```
 init-infera
 ```
+## Update and re-install
 
+To update Infera on your computer, enter the following command into your Terminal to remove and replace
+the depricated version of Infera.
+
+### Apple M Series
+
+```
+rm -rf ~/infera
+curl -O https://www.infera.org/scripts/install_script_m_chips.sh
+chmod +x install_script_m_chips.sh
+./install_script_m_chips.sh
+echo "alias infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
+```
+
+
+### Apple Intel Series
+
+```
+rm -rf ~/infera
+curl -O https://www.infera.org/scripts/install_script_intel.sh
+chmod +x install_script_intel.sh
+./install_script_intel.sh
+echo "alias infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
+```
+
+### Linux
+
+```
+rm -rf ~/infera
+curl -O https://www.infera.org/scripts/install_script_linux.sh
+chmod +x install_script_linux.sh
+./install_script_linux.sh
+```
+
+
+
+## Uninstall
+
+To delete infera from your computer, enter the following command into your Terminal.
+
+```
+rm -rf ~/infera
+```
 
 ## Manage Models
 
