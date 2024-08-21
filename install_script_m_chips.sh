@@ -75,6 +75,7 @@ if [ "$CURRENT_SHELL" = "zsh" ]; then
     echo -e "${CYAN}To create the alias for zsh, add the following line to your ~/.zshrc file:${NC}"
     echo -e "${CYAN}${ALIAS_STRING}${NC}"
     echo -e "${CYAN}And then run 'source ~/.zshrc' or 'omz reload'${NC}"
+    echo -e "${CYAN}if you downloaded via the github CLI instructions ignore the above'${NC}"
 else
     echo -e "${CYAN}To run the executable, use the command: 'init-infera'${NC}"
 fi
