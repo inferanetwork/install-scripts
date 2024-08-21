@@ -47,7 +47,7 @@ chmod +x install_script_linux.sh
 To start the node, enter the following to your terminal and the node will automatically start
 
 ```
-init-infera
+infera
 ```
 ## Update and re-install
 
