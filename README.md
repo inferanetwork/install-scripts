@@ -21,7 +21,7 @@ the Infera Node.
 curl -O https://www.infera.org/scripts/install_script_m_chips.sh
 chmod +x install_script_m_chips.sh
 ./install_script_m_chips.sh
-echo "alias infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
+echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 ```
 
 
@@ -31,7 +31,7 @@ echo "alias infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 curl -O https://www.infera.org/scripts/install_script_intel.sh
 chmod +x install_script_intel.sh
 ./install_script_intel.sh
-echo "alias infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
+echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 ```
 
 ### Linux
@@ -47,7 +47,7 @@ chmod +x install_script_linux.sh
 To start the node, enter the following to your terminal and the node will automatically start
 
 ```
-infera
+init-infera
 ```
 ## Update and re-install
 
@@ -61,7 +61,7 @@ rm -rf ~/infera
 curl -O https://www.infera.org/scripts/install_script_m_chips.sh
 chmod +x install_script_m_chips.sh
 ./install_script_m_chips.sh
-echo "alias infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
+echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 ```
 
 
@@ -72,7 +72,7 @@ rm -rf ~/infera
 curl -O https://www.infera.org/scripts/install_script_intel.sh
 chmod +x install_script_intel.sh
 ./install_script_intel.sh
-echo "alias infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
+echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 ```
 
 ### Linux
