@@ -61,7 +61,6 @@ rm -rf ~/infera
 curl -O https://www.infera.org/scripts/install_script_m_chips.sh
 chmod +x install_script_m_chips.sh
 ./install_script_m_chips.sh
-echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 ```
 
 
@@ -72,7 +71,6 @@ rm -rf ~/infera
 curl -O https://www.infera.org/scripts/install_script_intel.sh
 chmod +x install_script_intel.sh
 ./install_script_intel.sh
-echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 ```
 
 ### Linux
