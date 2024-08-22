@@ -10,6 +10,14 @@ Ensure you have the following installed and running on your system:
 
 - **Ollama**: [Download Ollama](https://ollama.com/download)
 
+## Windows Installation and Start-Up
+
+Download this repository, extract the folder, and drag and drop ```Infera.exe``` to your desktop.
+
+Double click on the ```Infera.exe``` icon on your desktop and the Infera node will boot up.
+
+Please ensure that Ollama is running or ```Infera.exe``` will not boot up.
+
 ## CLI Installation
 
 Open up Terminal and copy and paste the following commands into your command line and press enter to install
@@ -45,10 +53,10 @@ chmod +x install_script_linux.sh
 ## Start Up
 
 To start the node, enter the following to your terminal and the node will automatically start
-
 ```
 init-infera
 ```
+
 ## Update and re-install
 
 To update Infera on your computer, enter the following command into your Terminal to remove and replace
@@ -62,7 +70,6 @@ curl -O https://www.infera.org/scripts/install_script_m_chips.sh
 chmod +x install_script_m_chips.sh
 ./install_script_m_chips.sh
 ```
-
 
 ### Apple Intel Series
 
@@ -82,8 +89,6 @@ chmod +x install_script_linux.sh
 ./install_script_linux.sh
 ```
 
-
-
 ## Uninstall
 
 To delete infera from your computer, enter the following command into your Terminal.
@@ -92,7 +97,7 @@ To delete infera from your computer, enter the following command into your Termi
 rm -rf ~/infera
 ```
 
-## Manage Models
+## Manage Models & Node
 
 While the node is running, you can install ```llama3:latest``` with CLI using the following terminal
 command in a second terminal window.
@@ -116,5 +121,7 @@ llama3:latest
 llama3.1:latest
 llama2-uncensored:latest
 ```
+Users can also user their browser and go to ```localhost:11025/docs``` to view the node API and see node stats and information.
+Models can also be managed under the node API without having to use a terminal curl request.
 
 Infera offers a [Google Extension](https://github.com/inferanetwork/chrome-extension) for users who wish to use a visual interface for accessing their hosted node.
