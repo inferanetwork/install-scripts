@@ -18,7 +18,7 @@ Double click on the ```Infera.exe``` icon on your desktop and the Infera node wi
 
 Please ensure that Ollama is running or ```Infera.exe``` will not boot up.
 
-## CLI Installation
+## CLI Installation (Mac & Linux)
 
 Open up Terminal and copy and paste the following commands into your command line and press enter to install
 the Infera Node.  
