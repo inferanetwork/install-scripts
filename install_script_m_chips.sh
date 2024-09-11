@@ -15,7 +15,7 @@ ALIAS_STRING="alias $ALIAS_NAME='~/infera'"
 # Function to download and set up the file
 download_and_setup() {
     # URL of the file on Google Drive
-    FILE_ID="1G5loBiNzSdpjY38tKbNBPRMzwu2GOsMH"
+    FILE_ID="1dg4vA-l36JCYsA4sndibTAOATcQ4X6_F"
     CONFIRM=$(curl -sc /tmp/gcookie "https://drive.google.com/uc?export=download&id=${FILE_ID}" | grep -o 'confirm=[^&]*' | sed 's/confirm=//')
 
     # Download the file from Google Drive using the confirmation token
@@ -75,7 +75,7 @@ if [ "$CURRENT_SHELL" = "zsh" ]; then
     echo -e "${CYAN}To create the alias for zsh, add the following line to your ~/.zshrc file:${NC}"
     echo -e "${CYAN}${ALIAS_STRING}${NC}"
     echo -e "${CYAN}And then run 'source ~/.zshrc' or 'omz reload'${NC}"
-    echo -e "${CYAN}if you downloaded via the github CLI instructions ignore the above'${NC}"
+    echo -e "${CYAN}ignore this if you are following the github CLI instructions${NC}"
 else
     echo -e "${CYAN}To run the executable, use the command: 'init-infera'${NC}"
 fi
