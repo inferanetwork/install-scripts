@@ -1,4 +1,4 @@
-# Worker Node
+# Infera Worker Node
 
 ## Overview
 
