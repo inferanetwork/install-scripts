@@ -23,6 +23,8 @@ Please ensure that Ollama is running or ```Infera.exe``` will not boot up.
 Open up Terminal and copy and paste the following commands into your command line and press enter to install
 the Infera Node.  
 
+Note: The current Linux build is only for Linux + Intel chips, AMD chips will be added shortly
+
 ### Apple M Series
 
 ```
@@ -31,7 +33,6 @@ chmod +x install_script_m_chips.sh
 ./install_script_m_chips.sh
 echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 ```
-
 
 ### Apple Intel Series
 
@@ -42,7 +43,7 @@ chmod +x install_script_intel.sh
 echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 ```
 
-### Linux
+### Linux (Intel Build)
 
 ```
 curl -O https://www.infera.org/scripts/install_script_linux.sh
