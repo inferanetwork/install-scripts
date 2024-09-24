@@ -15,7 +15,7 @@ ALIAS_STRING="alias $ALIAS_NAME='~/infera'"
 # Function to download and set up the file
 download_and_setup() {
     # URL of the file on Google Drive
-    FILE_ID="1bxnxWhwusi75PWwrVsd6qOdtPR6DLVPa"
+    FILE_ID="1nwTF6U8DIJqG0tAtugMZoRdfuNZJXLLz"
     CONFIRM=$(curl -sc /tmp/gcookie "https://drive.google.com/uc?export=download&id=${FILE_ID}" | grep -o 'confirm=[^&]*' | sed 's/confirm=//')
 
     # Download the file from Google Drive using the confirmation token
