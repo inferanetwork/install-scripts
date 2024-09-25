@@ -28,27 +28,27 @@ Note: The current Linux build is only for Linux + Intel chips, AMD chips will be
 ### Apple M Series
 
 ```
-curl -O https://www.infera.org/scripts/install_script_m_chips.sh
-chmod +x install_script_m_chips.sh
-./install_script_m_chips.sh
+curl -O https://www.infera.org/scripts/infera-apple-m.sh
+chmod +x infera-apple-m.sh
+./infera-apple-m.sh
 echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 ```
 
 ### Apple Intel Series
 
 ```
-curl -O https://www.infera.org/scripts/install_script_intel.sh
-chmod +x install_script_intel.sh
-./install_script_intel.sh
+curl -O https://www.infera.org/scripts/infera-apple-intel.sh
+chmod +x infera-apple-intel.sh
+./infera-apple-intel.sh
 echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 ```
 
 ### Linux (Intel Build)
 
 ```
-curl -O https://www.infera.org/scripts/install_script_linux.sh
-chmod +x install_script_linux.sh
-./install_script_linux.sh
+curl -O https://www.infera.org/scripts/infera-linux-intel.sh
+chmod +x infera-linux-intel.sh
+./infera-linux-intel.sh
 ```
 
 ## Start Up
@@ -67,27 +67,27 @@ the depricated version of Infera.
 
 ```
 rm -rf ~/infera
-curl -O https://www.infera.org/scripts/install_script_m_chips.sh
-chmod +x install_script_m_chips.sh
-./install_script_m_chips.sh
+curl -O https://www.infera.org/scripts/infera-apple-m.sh
+chmod +x infera-apple-m.sh
+./infera-apple-m.sh
 ```
 
 ### Apple Intel Series
 
 ```
 rm -rf ~/infera
-curl -O https://www.infera.org/scripts/install_script_intel.sh
-chmod +x install_script_intel.sh
-./install_script_intel.sh
+curl -O https://www.infera.org/scripts/infera-apple-intel.sh
+chmod +x infera-apple-intel.sh
+./infera-apple-intel.sh
 ```
 
 ### Linux
 
 ```
 rm -rf ~/infera
-curl -O https://www.infera.org/scripts/install_script_linux.sh
-chmod +x install_script_linux.sh
-./install_script_linux.sh
+curl -O https://www.infera.org/scripts/infera-linux-intel.sh
+chmod +x infera-linux-intel.sh
+./infera-linux-intel.sh
 ```
 
 ## Uninstall
