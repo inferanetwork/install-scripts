@@ -29,7 +29,7 @@ Note: The current Linux build is only for Linux + Intel chips, AMD chips will be
 
 ```
 curl -O https://www.infera.org/scripts/infera-apple-m.sh
-chmod +x infera-apple-m.sh
+chmod +x ./infera-apple-m.sh
 ./infera-apple-m.sh
 echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 ```
@@ -38,7 +38,7 @@ echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 
 ```
 curl -O https://www.infera.org/scripts/infera-apple-intel.sh
-chmod +x infera-apple-intel.sh
+chmod +x ./infera-apple-intel.sh
 ./infera-apple-intel.sh
 echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 ```
@@ -47,7 +47,7 @@ echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 
 ```
 curl -O https://www.infera.org/scripts/infera-linux-intel.sh
-chmod +x infera-linux-intel.sh
+chmod +x ./infera-linux-intel.sh
 ./infera-linux-intel.sh
 ```
 
