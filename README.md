@@ -68,7 +68,7 @@ the depricated version of Infera.
 ```
 rm -rf ~/infera
 curl -O https://www.infera.org/scripts/infera-apple-m.sh
-chmod +x infera-apple-m.sh
+chmod +x ./infera-apple-m.sh
 ./infera-apple-m.sh
 ```
 
@@ -77,7 +77,7 @@ chmod +x infera-apple-m.sh
 ```
 rm -rf ~/infera
 curl -O https://www.infera.org/scripts/infera-apple-intel.sh
-chmod +x infera-apple-intel.sh
+chmod +x ./infera-apple-intel.sh
 ./infera-apple-intel.sh
 ```
 
@@ -86,7 +86,7 @@ chmod +x infera-apple-intel.sh
 ```
 rm -rf ~/infera
 curl -O https://www.infera.org/scripts/infera-linux-intel.sh
-chmod +x infera-linux-intel.sh
+chmod +x ./infera-linux-intel.sh
 ./infera-linux-intel.sh
 ```
 
