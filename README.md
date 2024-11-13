@@ -125,4 +125,4 @@ llama2-uncensored:latest
 Users can also user their browser and go to ```localhost:11025/docs``` to view the node API and see node stats and information.
 Models can also be managed under the node API without having to use a terminal curl request.
 
-Infera offers a [Google Extension](https://github.com/inferanetwork/chrome-extension) for users who wish to use a visual interface for accessing their hosted node.
+Infera offers a [Google Extension](chromewebstore.google.com/detail/infera-lite/ffoccnmddajjohmmkccnkobelobgcdmp?authuser=0&hl=en) for users who wish to use a visual interface for accessing their hosted node.
