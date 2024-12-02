@@ -34,15 +34,6 @@ chmod +x ./infera-apple-m.sh
 echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 ```
 
-### Apple Intel Series
-
-```
-curl -O https://www.infera.org/scripts/infera-apple-intel.sh
-chmod +x ./infera-apple-intel.sh
-./infera-apple-intel.sh
-echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
-```
-
 ### Linux (Intel Build)
 
 ```
@@ -70,15 +61,6 @@ rm -rf ~/infera
 curl -O https://www.infera.org/scripts/infera-apple-m.sh
 chmod +x ./infera-apple-m.sh
 ./infera-apple-m.sh
-```
-
-### Apple Intel Series
-
-```
-rm -rf ~/infera
-curl -O https://www.infera.org/scripts/infera-apple-intel.sh
-chmod +x ./infera-apple-intel.sh
-./infera-apple-intel.sh
 ```
 
 ### Linux
