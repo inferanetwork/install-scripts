@@ -14,13 +14,12 @@ ALIAS_STRING="alias $ALIAS_NAME='~/infera'"
 
 # Function to download and set up the file
 download_and_setup() {
-    # URL of the file on Google Drive
-    FILE_ID="1K5-w5E3Eoqw41FyEBINwgv4cEnTYWGsC"
-    CONFIRM=$(curl -sc /tmp/gcookie "https://drive.google.com/uc?export=download&id=${FILE_ID}" | grep -o 'confirm=[^&]*' | sed 's/confirm=//')
+    # URL of the file on S3
+    S3_URL="https://inferabuilds.s3.us-east-1.amazonaws.com/0.0.1_infera_build_mac"
 
-    # Download the file from Google Drive using the confirmation token
+    # Download the file from the S3 bucket
     echo -e "${YELLOW}Downloading the file...${NC}"
-    curl -Lb /tmp/gcookie "https://drive.google.com/uc?export=download&confirm=${CONFIRM}&id=${FILE_ID}" -o infera
+    curl -o infera "${S3_URL}"
 
     # Move the file to ~/
     echo -e "${YELLOW}Moving the file to ~/ ...${NC}"
