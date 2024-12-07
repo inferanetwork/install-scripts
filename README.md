@@ -86,9 +86,10 @@ While the node is running, you can install ```llama3:latest``` with CLI using th
 command in a second terminal window.
 
 ```
-curl -X POST http://localhost:11025/install_new_model \
-     -H "Content-Type: application/json" \
-     -d '{"install_model_name": "llama3:latest"}'
+Invoke-WebRequest -Uri 'http://localhost:11025/install_new_model' `
+>> -Headers @{"Content-Type"="application/json"} `
+>> -Method POST `
+>> -Body '{"install_model_name": "llama3:latest"}'
 ```
 
 The node should now have ```llama3:latest``` installed and your node is now fully operational on the network.
