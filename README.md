@@ -20,7 +20,8 @@ Please ensure that Ollama is running or ```infera-windows.exe``` will not boot u
 
 ## CLI Installation (Mac & Linux)
 
-Open up Terminal and copy and paste the following commands into your command line and press enter to install
+Download the shell script and place into your root directory and then open your
+terminal and copy and paste the following commands into your command line and press enter to install
 the Infera Node.  
 
 Note: The current Linux build is only for Linux + Intel chips, AMD chips will be added shortly
@@ -28,7 +29,6 @@ Note: The current Linux build is only for Linux + Intel chips, AMD chips will be
 ### Apple M Series
 
 ```
-curl -O https://www.infera.org/scripts/infera-apple-m.sh
 chmod +x ./infera-apple-m.sh
 ./infera-apple-m.sh
 echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
@@ -37,7 +37,6 @@ echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
 ### Linux (Intel Build)
 
 ```
-curl -O https://www.infera.org/scripts/infera-linux-intel.sh
 chmod +x ./infera-linux-intel.sh
 ./infera-linux-intel.sh
 ```
@@ -58,7 +57,6 @@ the depricated version of Infera.
 
 ```
 rm -rf ~/infera
-curl -O https://www.infera.org/scripts/infera-apple-m.sh
 chmod +x ./infera-apple-m.sh
 ./infera-apple-m.sh
 ```
@@ -67,7 +65,6 @@ chmod +x ./infera-apple-m.sh
 
 ```
 rm -rf ~/infera
-curl -O https://www.infera.org/scripts/infera-linux-intel.sh
 chmod +x ./infera-linux-intel.sh
 ./infera-linux-intel.sh
 ```
