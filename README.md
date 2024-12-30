@@ -12,11 +12,11 @@ Ensure you have the following installed and running on your system:
 
 ## Windows Installation and Start-Up
 
-Download this repository, extract the folder, and drag and drop ```infera-windows.exe``` to your desktop.
+Download this repository, extract the folder, and drag and drop ```infera_node.exe``` to your desktop.
 
-Double click on the ```infera-windows.exe``` icon on your desktop and the Infera node will boot up.
+Double click on the ```infera_node.exe``` icon on your desktop and the Infera node will boot up.
 
-Please ensure that Ollama is running or ```infera-windows.exe``` will not boot up.
+Please ensure that Ollama is running or ```infera_node.exe``` will not boot up.
 
 ## CLI Installation (Mac & Linux)
 
