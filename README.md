@@ -29,7 +29,7 @@ Note: The current Linux build is only for Linux + Intel chips, AMD chips will be
 
 ```
 curl -sSL http://downloads.infera.org/infera-apple-m.sh | bash
-echo "alias init-infera='~/infera'" >> ~/.zshrc && source ~/.zshrc
+echo "alias init-infera='~/infera-node'" >> ~/.zshrc && source ~/.zshrc
 ```
 
 ### Linux (Intel Build)
