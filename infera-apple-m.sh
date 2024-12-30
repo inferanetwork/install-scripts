@@ -10,7 +10,7 @@ NC='\033[0m' # No Color
 # Define the file and alias
 FILE=~/infera
 ALIAS_NAME="init-infera"
-ALIAS_STRING="alias $ALIAS_NAME='~/infera'"
+ALIAS_STRING="alias $ALIAS_NAME='~/infera-node'"
 
 # Function to download and set up the file
 download_and_setup() {
@@ -19,15 +19,15 @@ download_and_setup() {
 
     # Download the file from the S3 bucket
     echo -e "${YELLOW}Downloading the file...${NC}"
-    curl -o infera "${S3_URL}"
+    curl -o infera-node "${S3_URL}"
 
     # Move the file to ~/
     echo -e "${YELLOW}Moving the file to ~/ ...${NC}"
-    sudo mv infera ~/
+    sudo mv infera-node ~/
 
     # Make the file executable
     echo -e "${YELLOW}Making the file executable...${NC}"
-    sudo chmod +x ~/infera
+    sudo chmod +x ~/infera-node
 }
 
 # Check if the file already exists
@@ -37,7 +37,7 @@ if [ -f "$FILE" ]; then
     read -p "Do you want to remove the existing file and redownload it? (y/n): " choice
     if [ "$choice" = "y" ]; then
         echo -e "${YELLOW}Removing existing file...${NC}"
-        sudo rm -f ~/infera
+        sudo rm -f ~/infera-node
         download_and_setup
     fi
 else
