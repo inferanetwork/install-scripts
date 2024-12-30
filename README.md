@@ -53,14 +53,14 @@ the old version of Infera.
 ### Apple M Series
 
 ```
-rm -rf ~/infera
+rm -rf ~/infera-node
 curl -sSL http://downloads.infera.org/infera-apple-m.sh | bash
 ```
 
 ### Linux
 
 ```
-rm -rf ~/infera
+rm -rf ~/infera-node
 curl -sSL http://downloads.infera.org/infera-linux-intel.sh | bash
 ```
 
