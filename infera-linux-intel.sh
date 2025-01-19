@@ -8,6 +8,8 @@ CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
 # Define the file and alias
+unalias init-infera 2>/dev/null
+sed -i '/alias init-infera=/d' ~/.bashrc
 FILE=~/infera
 ALIAS_NAME="init-infera"
 ALIAS_STRING="alias $ALIAS_NAME='~/infera'"
@@ -15,7 +17,7 @@ ALIAS_STRING="alias $ALIAS_NAME='~/infera'"
 # Function to download and set up the file
 download_and_setup() {
     # URL of the file on S3
-    S3_URL="https://inferabuilds.s3.us-east-1.amazonaws.com/0.0.3_infera_build_linux"
+    S3_URL="https://inferabuilds.s3.us-east-1.amazonaws.com/0.0.4_infera_build_linux"
 
     # Download the file from the S3 bucket
     echo -e "${YELLOW}Downloading the file...${NC}"
